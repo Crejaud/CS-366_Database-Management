@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="" docBase="/WebContent/yabe"
+   crossContext="true" reloadable="true" debug="1">
+
+	<Resource name="jdbc/cs336"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="cs336"
+		password="cs336"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/cs336?autoReconnect=true&amp;useSSL=false"
+		maxActive="20"
+		maxIdle="3"
+		validationQuery="SELECT 1"
+		validationInterval="34000"/>
+</Context>
